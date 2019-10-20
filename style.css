@@ -1,0 +1,508 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700&display=swap');		
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Changa&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Changa:400,800&display=swap');
+
+		*{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		text-decoration: none;
+		}
+		body{
+		font-family: 'PT Sans', sans-serif;
+
+		}
+
+
+		/*UTILITY CLASSES*/
+
+		/*PUSHING MAIN CONTENT 200PX TO THE LEFT BECAUSE OF NAVBAR WIDTH*/
+		.main-content{
+			margin-left: 200px;
+
+		}
+		.container_custom{
+			margin: 0 auto;
+		}
+		.btn-lg{
+			padding: 20px 100px!important;
+		}
+		.btn-sm{
+			padding: 10px 20px!important;
+		}
+		.headingLg{
+			font-size: 4rem!important;
+			font-weight: bold!important;
+		}
+		.headingSm{
+			font-size: 3rem!important;
+
+		}
+		.headingCustom{
+			font-size: 10rem;
+		}
+		.activeCustom{
+			border: 2px solid #ec5353!important;
+			color: #ec5353!important;
+		}
+		.lead_custom{
+			font-family: lato,Helvetica,Arial,sans-serif;
+			font-size: 14px;
+			line-height: 1.71429;
+			color: #9b9b9b;
+		}
+
+
+
+		/*MAIN ELEMENTS*/
+		.orderButton{
+			color: #fff!important;
+			background-color: #ec5353;
+			border-color: #ec5353;
+			border-radius: 35px;
+			font-weight: bold;
+			padding: 20px 40px;
+			width: 200px!important;
+			text-align: center;
+			margin: 0 auto;
+		
+		}
+		.headingMain{
+			font-size: 3rem;
+			font-weight: 900;
+			color: white;
+			font-family: 'Changa', sans-serif;
+		}
+		button:hover,a:hover{
+			opacity: 0.7!important;
+			text-decoration: none;
+			cursor: pointer;
+		}
+
+
+		/*NAVBAR*/
+		nav{
+			background: #b12d2d;
+			width: 200px;
+			position: fixed;
+			top: 0;
+			left: 0;
+			height: 100%;
+		}
+		.navHeading{
+			color: #fff;
+			border-bottom: #f9b129 3px solid;
+			padding: 10px;
+			font-family: 'Changa', sans-serif;
+		}
+		
+		nav ul{
+			padding-top: 40px;
+			margin-left: 10px;
+		}
+		nav li a{
+			color: #fff;
+			font-family: 'Changa', sans-serif;
+			font-size: 32px;
+			font-weight: 500;
+
+		}
+		nav .row a{
+			color: white;
+			font-size:2rem;
+			cursor: pointer;
+
+		}
+		
+		nav a:hover{
+			color: #333;
+			text-decoration:none;
+		}
+		.nav-icons a {
+			color: darkgrey;
+			font-size: 2rem;
+		}
+		.nav-hr{
+			position: absolute;
+			top: 10px;
+			width: 200px!important;
+			border-top: 3px solid #f9b129;
+			left: 0;
+			margin-left: -20px;
+		}
+		.nav-icons {
+			position: fixed;
+			bottom: 0;
+
+		}
+		.nav-icons li{
+			margin-right: -10px;
+			float: left;
+			margin-left:25px;
+		}
+		.nav-icons li:first-child{
+			margin-left: 0!important;
+		}
+
+		
+		/*CAROUSEL*/
+		.carousel{
+			position: relative;
+		}
+		.carouselText{
+			position: absolute;
+			top: 50%;
+			left: 25%;
+			transform: translate(-50%, -50%);	
+
+		}
+		.carousel-control-next-icon{
+			height: 50px!important;
+			width: 50px!important;
+			 
+		}
+		.carousel-control-prev-icon{
+			height: 50px!important;
+			width: 50px!important;
+		}
+		.carouselText h1{
+			font-style: italic;
+			font-family: 'Changa', sans-serif;
+			line-height: 1.02778;
+			font-weight: bold;
+			color: #f9b129;
+			font-size: 5rem;
+			font-weight: bold;
+			font-family: 'Changa', sans-serif;
+
+		}
+		.carouselText h2{
+			line-height: 1.02778;
+			font-weight: bold;
+			margin-top: -15px;
+			margin-bottom: 20px;
+
+		}
+		.carouselText a{
+			padding: 20px 60px!important;
+			margin-bottom: -10px; 
+		}
+		.carousel img{
+			background-position: center;
+			background-repeat: no-repeat;
+			height: 100vh;
+		}
+	
+
+		.card-image{
+			position: relative;
+		}
+
+
+		#card-sec{
+			padding: 50px 0;
+			max-width: 90%;
+			margin: 0 auto;;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			margin-top: 50px;
+			position: relative;
+		}
+		#vegan{
+			background-image: url(images/vegan.jpg);
+			background-repeat: no-repeat;
+			background-position: center;
+			height: 500px;
+			width: 500px;	
+		}
+		#cake{
+			background-image: url(images/chocolate-cake.jpg);
+			background-repeat: no-repeat;
+			background-position: center;
+			height: 500px;
+			width: 500px;
+		}
+		#order{
+			background-image: url(images/order.jpg);
+			background-repeat: no-repeat;
+			background-position: center;
+			height: 500px;
+			width: 500px;
+		}
+
+
+		#card-sec div{
+			text-align: center;
+			width: 500px;;
+			position: absolute;
+			top: 70%;
+			left: 50%;
+			transform: translate(-50%, -50%);	
+		}
+		#card-sec p{
+			color: white;
+			font-family: 'Changa', sans-serif;
+			font-size: 20px!important;
+			font-weight: 400;
+			margin-top: 6px;
+		}
+		
+
+
+#backMenu{
+	margin-top: 20px;
+	background: #f2f3f8;
+	padding: 20px 0;
+	fill: #f2f3f8;
+}
+.menuBtns{
+	max-width: 60%;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 20px;
+	
+}
+.menuBtns button{
+	background: none;
+	color: #9b9b9b;
+	font-weight: bold;
+	padding: 20px;
+	width: 150px;
+	border: 2px solid #e0e1e9;
+    border-radius: 35px;
+}
+.menuBurgers,.menuPizzas,.menuDrinks,.menuSalads{
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+.menuBurgers div,.menuPizzas div,.menuDrinks div,.menuSalads div{
+	display: flex;
+	flex-direction: column;
+}
+.menuBurgers img,.menuPizzas img,.menuDrinks img,.menuSalads img{
+	margin: 0 auto;
+	height: 260px;
+	width:310px;
+}
+
+.menuBurgers p,.menuPizzas p,.menuDrinks p,.menuSalads p{
+	margin-left: 20px;
+}
+.price{
+	color: #ec5353;
+	font-size: 32px;
+	margin: 0 auto;
+}
+
+.banner{
+	background-position: center;
+	position: relative;
+	
+}
+
+#bannerText{
+	position: absolute;
+	top: 50%;
+	left: 55%;
+	transform: translate(-50%, -50%);
+	
+
+}
+.priceRow{
+
+	display: flex;
+	flex-direction: row;
+
+}
+.priceRow div{
+	display: flex;
+	flex-direction: column;
+}
+.priceRow p{
+	margin: -15px 0 30px 20px;
+}
+
+
+.bannerPrice{
+	font-family: 'Changa', sans-serif;
+	line-height: 1.02778;
+	font-weight: bold;
+	color: #f9b129;
+	font-size: 5rem;
+	font-weight: bold;
+}
+.bannerPrice span{
+	color: #f9b129;
+	font-size: 14px!important;
+}
+.typeMenu{
+	color: white;
+}
+
+
+/*INFO SEC*/
+.infoSec{
+    padding-top: 130px;
+	padding-bottom: 130px;
+	max-width: 90%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	text-align: center;
+}
+.infoHr{
+	background-color: #f9b129;
+	width: 36px;
+	height: 4px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 17px;
+	margin-bottom: 16px;
+	
+	
+}
+
+
+.infoSec i{
+	color:#333;
+	font-size: 5rem;
+	margin-bottom: 20px;
+}
+.infoSec p{
+	max-width: 50%;
+}
+
+
+/*FOOTER*/
+footer{
+	background: #111;
+	padding: 50px 0;
+	
+}
+footer .orderButton{
+	margin-left: 10px;
+	margin-top: -4px;
+}
+.containerCustom{
+	display: flex;
+	justify-content: space-between;
+	max-width: 90%;
+	margin: 0 auto;
+	color: white;
+}
+.newsletter{
+	display: flex;
+}
+
+
+.spanInfo{
+	color: #9b9b9b;
+}
+
+/*MEDIA QUERIES*/
+
+@media only screen and (max-device-width: 768px) {
+	.headingLg{
+		font-size: 3rem!important;
+	}
+	.headingSm{
+		font-size: 2rem!important;
+	}
+	.orderButton{
+		font-size: 22px;
+		
+	}
+	p{
+		font-size: 20px!important;
+	}
+	nav {
+	  display: none!important;
+	}
+	.main-content{
+		margin-left: 0!important;
+	}
+	.carousel{
+		height: 60vh;
+	}
+	.carousel-inner{
+		height: 100%;
+	}
+	.carousel-item{
+		height: 100%;
+	}
+	.carousel-item img{
+		height: 100%;
+	}
+	.carousel h1{
+		font-size: 7rem;
+	}
+	.carousel h2{
+		font-size: 6rem!important;
+	}
+	.carousel .orderButton{
+		padding: 30px 80px!important;
+	}
+	.carouselText{
+		left: 50%;
+		width: 100%;
+		text-align: center;
+	}
+	.imgBanner{
+		height: 500px!important;
+		
+	}
+	#card-sec{
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	.menuBtns{
+		max-width: 80%;
+	}
+	.menuBurgers,.menuPizzas,.menuSalads,.menuDrinks{
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+	.menuBurgers div,.menuPizzas div,.menuSalads div,.menuDrinks div{
+		margin-bottom: 40px;
+		max-width: 50%;
+	}
+	.menuBurgers p,.menuPizzas p,.menuSalads p,.menuDrinks p{
+		margin-bottom: 0!important;
+	}
+
+	.infoSec{
+		flex-direction: column;
+		padding: 60px 0;
+	}
+	.infoSec div{
+		margin-bottom: 40px;
+
+	}
+	.infoSec div:last-child{
+		margin-bottom: 0!important;
+	}
+	.containerCustom{
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+	#card-sec a{
+		margin-bottom: 30px;
+	}
+	.containerCustom div{
+		margin-bottom: 40px;
+	}
+	.containerCustom div:last-child{
+		margin-bottom: 0!important;
+	}
+  }

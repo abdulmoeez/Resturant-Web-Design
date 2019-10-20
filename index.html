@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Stylish" rel="stylesheet">
+	
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>FOODIE. Where Taste is Valued</title>
+</head>
+<body>
+
+	<nav>
+		<div class="container_custom">
+			<a><h4 class="navHeading text-center">English</h4></a>
+			<img src="images/foodlogo.png" height="230px;" width="100%">
+			<h3 class="navHeading text-center">LOCATION</h3>
+			<h3 class="navHeading text-center">MENU</h3>
+			<ul>
+				<li><a href="index.html">- Home</a></li>
+				<li><a href="">- Menu</a></li>
+				<li><a href="order.html">- Order</a></li>
+				<li><a href="">- About us</a></li>
+
+			</ul>
+				
+
+				<ul class="nav-icons">
+					<hr class="nav-hr">
+					<li><a href="https://www.facebook.com"><i style="color:#e4e4e4" class="fab fa-facebook"></i></a></li>
+					<li><a href="https://www.instagram.com"><i style="color:#e4e4e4" class="fab fa-instagram"></i></a></li>
+					<li><a href="https://www.twitter.com"><i style="color:#e4e4e4" class="fab fa-twitter"></i></a></li>
+
+				</ul>
+
+
+		</div>
+	</nav>
+	<div class="main-content">
+
+			<div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner">
+					  <div class="carousel-item active" data-interval="10000">
+						<img src="images/back1 (4).jpg" class="d-block w-100" alt="...">
+						<div class="carouselText">
+								<h1>BURGER</h1>
+								<h2 class="headingMain headingLg">WITH SALAD</h2>
+								<a href="order.html" class="orderButton btn-sm">ORDER</a>
+							</div>
+					  </div>
+					  <div class="carousel-item" data-interval="2000">
+						<img src="images/back1 (3).jpg" class="d-block w-100" alt="...">
+					  </div>
+					  <!-- <div class="carousel-item">
+						<img src="images/back1 (1).jpg" class="d-block w-100" alt="...">
+					  </div> -->
+					</div> 
+					<a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+					  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					  <span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+					  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					  <span class="sr-only">Next</span>
+					</a>
+
+					
+				  </div>
+		
+		<section id="card-sec">
+			<a class="card-image cardFirst" id="vegan">
+				<div>
+					<h3 class="headingMain headingMd">For Vegans</h3>
+					<p>Burger + Fries + Drink</p>
+				</div>
+			</a>
+			<a class="card-image cardSecond" id="order">
+				<div>
+					<h3 class="headingMain headingMd">Order</h3>
+					<p>Available Every Day 9 AM-11PM</p>
+				</div>
+			</a>
+			<a class="card-image cardThird" id="cake">
+				<div>
+					<h3 class="headingMain headingMd">Special Cakes</h3>
+					<p>Every Friday Only $0.99</p>
+				</div>
+			</a>
+		</section>
+
+		
+	<section id="backMenu">
+		<h1 style="text-align: center;font-size:3rem;" class="menuHeading">Menu</h1>
+		<div class="menuBtns">
+			<button class="activeCustom menuBurgerBtn" onclick="burger()">BURGERS</button>
+			<button class="menuPizzaBtn" onclick="pizza()" >PIZZAS</button>
+			<button class="menuDrinkBtn" onclick="drink()">DRINKS</button>
+			<button class="menuSaladBtn" onclick="salad()">SALADS</button>
+			
+		</div>
+		<div class="menuBurgers">
+			<div>
+				<img src="images/mexican.png">
+				<h3 class="container_custom">Mexican Burger</h3> 
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum, molestiae totam minima non sint molestias.</p>
+				<span class="price">$7</span>
+				<a href="order.html" class="orderButton">Order Now</a>
+			</div> 
+			<div>
+				<img src="images/cheese.png">
+				<h3 class="container_custom">Cheese Burger</h3> 
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum, molestiae totam minima non sint molestias.</p>
+				<span class="price">$7</span>
+				<a href="order.html" class="orderButton">Order Now</a>
+			</div>
+			<div>
+				<img src="images/special.png">
+				<h3 class="container_custom">Classis Burger</h3> 
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum, molestiae totam minima non sint molestias.</p>
+				<span class="price">$4.1</span>
+				<a href="order.html" class="orderButton">Order Now</a>
+			</div>
+			<div>
+				<img src="images/whooper.png">
+				<h3 class="container_custom">Whooper Burger</h3> 
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum, molestiae totam minima non sint molestias.</p>
+				<span class="price">$6.99</span>
+				<a href="order.html" class="orderButton">Order Now</a>
+			</div>
+			<div>
+				<img src="images/classic.png">
+				<h3 class="container_custom">Special Burger</h3> 
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum, molestiae totam minima non sint molestias.</p>
+				<span class="price">$4</span>
+				<a href="order.html" class="orderButton">Order Now</a>
+			</div>
+		</div>
+
+		<!--MENU PIZZAS-->
+		<div class="menuPizzas" style="display: none">
+			<div>
+				<img src="images/pizzas/top-rated.png">
+				<h3 class="container_custom">Top Rated</h3> 
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum, molestiae totam minima non sint molestias.</p>
+				<span class="price">$14</span>
+				<a href="order.html" class="orderButton">Order Now</a>
+			</div> 
+			<div>
+				<img src="images/pizzas/classic.png">
+				<h3 class="container_custom">Classic Pizza</h3> 
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum, molestiae totam minima non sint molestias.</p>
+				<span class="price">$9</span>
+				<a href="order.html" class="orderButton">Order Now</a>
+			</div>
+			<div>
+				<img src="images/pizzas/special.png">
+				<h3 class="container_custom">Special Pizza</h3> 
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum, molestiae totam minima non sint molestias.</p>
+				<span class="price">$17</span>
+				<a href="order.html" class="orderButton">Order Now</a>
+			</div>
+			<div>
+				<img src="images/pizzas/pepperoni.png">
+				<h3 class="container_custom">Pepperoni</h3> 
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum, molestiae totam minima non sint molestias.</p>
+				<span class="price">$12.5</span>
+				<a href="order.html" class="orderButton">Order Now</a>
+			</div>
+			<div>
+				<img src="images/pizzas/cheese.png">
+				<h3 class="container_custom">Cheese Pizzar</h3> 
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum, molestiae totam minima non sint molestias.</p>
+				<span class="price">$13</span>
+				<a href="order.html" class="orderButton">Order Now</a>
+			</div>
+		</div>
+
+		<!--MENU DRINKS-->
+		<div class="menuDrinks" onclick="drinks()" style="display: none">
+			<div>
+				<img src="images/drinks/orange.png">
+				<h3 class="container_custom">Orange Juice</h3> 
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum, molestiae totam minima non sint molestias.</p>
+				<span class="price">$9</span>
+				<a href="order.html" class="orderButton">Order Now</a>
+			</div> 
+			<div>
+				<img src="images/drinks/lem.png">
+				<h3 class="container_custom">Lemonade</h3> 
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum, molestiae totam minima non sint molestias.</p>
+				<span class="price">$4</span>
+				<a href="order.html" class="orderButton">Order Now</a>
+			</div>
+			<div>
+				<img src="images/drinks/smoothie.png">
+				<h3 class="container_custom">Smoothie</h3> 
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum, molestiae totam minima non sint molestias.</p>
+				<span class="price">$6</span>
+				<a href="order.html" class="orderButton">Order Now</a>
+			</div>
+			<div>
+				<img src="images/drinks/coffee.png">
+				<h3 class="container_custom">Coffee</h3> 
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum, molestiae totam minima non sint molestias.</p>
+				<span class="price">$6.5</span>
+				<a href="order.html" class="orderButton">Order Now</a>
+			</div>
+		
+		</div>
+
+		<!--MENU SALADS-->
+
+		<div class="menuSalads" onclick="salads()" style="display: none">
+			<div>
+				<img src="images/salads/chicken.png">
+				<h3 class="container_custom">Chicken Salad</h3> 
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum, molestiae totam minima non sint molestias.</p>
+				<span class="price">$12.1</span>
+				<a href="order.html" class="orderButton">Order Now</a>
+			</div> 
+			<div>
+				<img src="images/salads/simple.png">
+				<h3 class="container_custom">Simple Salad</h3> 
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum, molestiae totam minima non sint molestias.</p>
+				<span class="price">$12.1</span>
+				<a href="order.html" class="orderButton">Order Now</a>
+			</div>
+			<div>
+				<img src="images/salads/large.png">
+				<h3 class="container_custom">Large Salad</h3> 
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum, molestiae totam minima non sint molestias.</p>
+				<span class="price">$12.1</span>
+				<a href="order.html" class="orderButton">Order Now</a>
+			</div>
+			<div>
+				<img src="images/salads/mix.png">
+				<h3 class="container_custom">Mix Salad</h3> 
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum, molestiae totam minima non sint molestias.</p>
+				<span class="price">$12.1</span>
+				<a href="order.html" class="orderButton">Order Now</a>
+			</div>
+			
+		</div>
+	</section>
+
+	<section class="banner">
+		<img class="imgBanner" src="images/beef-bread-buns-2233351.jpg" width="100%">
+		<div id="bannerText">
+		<h3 class="headingMain headingLg">Free Delivery</h3>
+		<h1 class="headingMain headingSm">FRIES DAY</h1>
+		<div class="priceRow">
+			<h1 class="headingCustom bannerPrice">$3<span>99</span></h1>
+			<div class="typeMenu">
+				<p>- cheese fries</p>
+				<p>- mayo fries</p>
+				<p>- drink</p>
+			</div>
+		</div>
+		<a class="orderButton btn-lg">Order Now</a>
+
+	</div>
+	</section>
+
+	<section class="infoSec">
+		<div>
+			<span><i class="far fa-clock"></i></span>
+			<h3>FAST DELIVERY</h3>
+			<hr class='infoHr'>
+			<p class="lead_custom container_custom">Everything you order at QuickFood will be quickly delivered to your door.</p>
+		</div>
+		<div>
+			<span><i class="fas fa-pizza-slice"></i></span>
+			<h3>FRESH FOOD</h3>
+			<hr class='infoHr'>
+			<p class="lead_custom container_custom">We use only the best ingredients to cook the tasty fresh food for you.</p>
+		</div>
+		<div>
+			<span><i class="fas fa-female"></i></span>
+			<h3>EXPERIENCED CHEFS</h3>
+			<hr class='infoHr'>
+			<p class="lead_custom container_custom">Our staff consists of chefs and cooks with years of experience.</p>
+		</div>
+		<div>
+			<span><i class="fas fa-cocktail"></i></span>
+			<h3>A VARIETY OF DISHES</h3>
+			<hr class='infoHr'>
+			<p class="lead_custom container_custom">In our menu you’ll find a wide variety of dishes, desserts, and drinks.</p>
+		</div>
+	</section>
+	
+	<footer>
+			<div class="containerCustom">
+		<div>
+			<p>Address :<span class="spanInfo"> 247 Park Avenue New York, NY 00000</span></p>
+			<p>Email :<span class="spanInfo"> info@info.com</span></p>
+		</div>
+
+		<div >
+			<h1 class="headingMain">OUR MENU</h1>
+			<p class="spanInfo">Burgers  /  Pizza  /  Sandwich  /  Cake  /  Salad</p>
+		</div>
+
+			<div>
+				<h1 class="headingMain">NEWSLETTER</h1>
+				<div class="newsletter">
+				<input class="form-control" placeholder="Your Email">
+				<button class="orderButton btn-sm">Subscribe</button>
+				</div>
+				</div>
+			</div>
+	</footer>
+
+</div>
+
+<script
+src="https://code.jquery.com/jquery-3.4.1.min.js"
+integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+crossorigin="anonymous"></script>
+<script src="app.js"></script>
+</body>
+</html>
