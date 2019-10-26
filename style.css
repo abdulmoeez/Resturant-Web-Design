@@ -22,7 +22,6 @@
 		/*PUSHING MAIN CONTENT 200PX TO THE LEFT BECAUSE OF NAVBAR WIDTH*/
 		.main-content{
 			margin-left: 200px;
-			width: 100%;
 		}
 		.container_custom{
 			margin: 0 auto;
