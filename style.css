@@ -13,7 +13,7 @@
 		}
 		body{
 		font-family: 'PT Sans', sans-serif;
-
+			overflow-x: hidden;
 		}
 
 
@@ -22,7 +22,7 @@
 		/*PUSHING MAIN CONTENT 200PX TO THE LEFT BECAUSE OF NAVBAR WIDTH*/
 		.main-content{
 			margin-left: 200px;
-
+			width: 100%;
 		}
 		.container_custom{
 			margin: 0 auto;
@@ -149,6 +149,17 @@
 
 		
 		/*CAROUSEL*/
+		.hamburgerIcon{
+			position: absolute;
+			top: 20px;
+			left: 20px;
+			height: 80px!important;
+			width: 40px;
+			z-index: 100;
+		}
+		.hamburgerIcon img{
+			height: 100%!important;
+		}
 		.carousel{
 			position: relative;
 		}
@@ -211,6 +222,7 @@
 			justify-content: space-between;
 			margin-top: 50px;
 			position: relative;
+			justify-content: center;
 		}
 		#vegan{
 			background-image: url(images/vegan.jpg);
@@ -260,7 +272,7 @@
 	fill: #f2f3f8;
 }
 .menuBtns{
-	max-width: 60%;
+	max-width: 70%;
 	margin: 0 auto;
 	display: flex;
 	flex-wrap: wrap;
@@ -288,12 +300,12 @@
 }
 .menuBurgers img,.menuPizzas img,.menuDrinks img,.menuSalads img{
 	margin: 0 auto;
-	height: 260px;
-	width:310px;
+	height: 200px;
+	width:210px;
 }
 
 .menuBurgers p,.menuPizzas p,.menuDrinks p,.menuSalads p{
-	margin-left: 20px;
+	text-align: center;
 }
 .price{
 	color: #ec5353;
@@ -409,7 +421,7 @@ footer .orderButton{
 
 /*MEDIA QUERIES*/
 
-@media only screen and (max-device-width: 768px) {
+@media only screen and (max-device-width: 800px) {
 	.headingLg{
 		font-size: 3rem!important;
 	}
@@ -424,7 +436,9 @@ footer .orderButton{
 		font-size: 20px!important;
 	}
 	nav {
-	  display: none!important;
+	  display: none;
+	  z-index: 100;
+	  width: 300px;
 	}
 	.main-content{
 		margin-left: 0!important;
@@ -505,4 +519,25 @@ footer .orderButton{
 	.containerCustom div:last-child{
 		margin-bottom: 0!important;
 	}
+	.navbarHide{
+		display: block!important;
+	}
   }
+
+@media only screen and (max-device-width: 400px) {
+	nav{
+		width: 500px;
+	}
+	nav h4, nav h3{
+		font-size: 4rem;
+	}
+	nav li a{
+		font-size: 4rem;
+	}
+	nav .nav-icons a{
+		font-size: 3rem;
+	}
+	nav img{
+		height: 300px;
+	}
+}
